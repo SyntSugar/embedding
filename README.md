@@ -22,7 +22,7 @@ conda activate embedding
 
 ## Usage
 
-### 1. Set API writelist
+### 1. Set IP writelist
 
 Add your request server ip address in `/conf/{env}/config.toml`.
 
