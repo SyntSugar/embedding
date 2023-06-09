@@ -24,7 +24,13 @@ conda activate embedding
 
 ### 1. Set API writelist
 
+Add your request server ip address in `/conf/{env}/config.toml`.
+
 ### 2. Start http server
+
+```
+uvicorn main:app --reload
+```
 
 ## License
 
