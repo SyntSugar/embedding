@@ -1,0 +1,13 @@
+name: embedding
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.8
+  - torchvision
+  - pytorch>=1.6.0
+  - sentence-transformers
+  - fastapi
+  - uvicorn
+  - toml
