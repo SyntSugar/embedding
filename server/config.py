@@ -5,4 +5,5 @@ def parse_config_file(env):
 
     with open(config_file, "r") as file:
         config = toml.load(file)
-    return config
+        ip_whitelist = config.get("ip_whitelist", {}).get("ips", [])
+    return ip_whitelist
