@@ -2,6 +2,14 @@
 
 A one-stop HTTP service for sentence semantic embedding, based on the advanced Sentence Transformers model.
 
+- [Embedding](#embedding)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [1\. Set IP writelist](#1-set-ip-writelist)
+    - [2\. Start http server](#2-start-http-server)
+  - [License](#license)
+
 ## Requirements
 
 - Miniconda
